@@ -16,3 +16,9 @@ Log Commands
 Renameing a file from git
    1) git mv <old name> <new name>
 
+Alias:
+1)	git config --global alias.br branch
+2)	git config --global alias.ci commit
+3)	git config --global alias.st status
+4)	git config --global --unset "alias.name"
+5)	git config --global --unset-all
