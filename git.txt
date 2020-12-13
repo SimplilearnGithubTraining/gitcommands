@@ -25,3 +25,11 @@ Alias:
 3)	git config --global alias.st status
 4)	git config --global --unset "alias.name"
 5)	git config --global --unset-all
+
+Applicable only to modified file:
+git commit -am "message"
+
+Diff commands:
+1) git diff <old commit> <new commit>
+2) Modified VS Commited = git diff <filename>
+3) Staged VS Commited = git diff --staged <Filename>
