@@ -11,3 +11,4 @@ Log Commands
 9)	Details of a single log= git show <comitid> --stat
 10)	View last 3 logs= git log -3
 11)	git log --stat --oneline
+12) git log --since="2013-11-12" --until="2013-11-12"
