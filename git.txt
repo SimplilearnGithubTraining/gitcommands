@@ -1,13 +1,13 @@
 Log Commands
-1)	Commit list in details – git log
-2)	Commit list in one line – git log –oneline
-3)	List of all the authors within the project – git shortlog -s -n
-4)	Commits list by author – git log --author <Author Name>
+1)	Commit list in details= git log
+2)	Commit list in one line= git log –oneline
+3)	List of all the authors within the project= git shortlog -s -n
+4)	Commits list by author= git log --author <Author Name>
     OR – git log –author=<2/3 starting letters>
-5)	Logs of specific file – git log --author <Author Name> <filename>
-6)	Logs for a specific file – git log -p <fileName>
+5)	Logs of specific file= git log --author <Author Name> <filename>
+6)	Logs for a specific file= git log -p <fileName>
 7)	git log --all --decorate --oneline –graph
-8)	git log --graph –oneline
-9)	git show <comitid> --stat
-10)	git log -3
-11)	git log –stat --oneline
+8)	git log --graph --oneline
+9)	Details of a single log= git show <comitid> --stat
+10)	View last 3 logs= git log -3
+11)	git log --stat --oneline
