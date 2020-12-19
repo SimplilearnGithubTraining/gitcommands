@@ -83,3 +83,7 @@ Clean Command
  To delete all the files and dir - Git clean -f -d
  To delete all the ignored file in one go - Git clean -f -x
  To delete all the files and dir incliding ignored files - Git clean -f -d -x
+
+RM Command
+ Removes the file from the git and the file system - git rm -f <filename>
+ Removes the file only from git repo but actual file will still be there in the project – git rm --cached <filename>
