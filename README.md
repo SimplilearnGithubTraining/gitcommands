@@ -1,16 +1,1 @@
-List of Git Commands used:
-
-To install git:
-  sudo apt-get update
-  sudo apt-get install Git
-
-To configure Credentials:
-  git config --global user.name "UserName"
-  git config --global user.email "Email-ID"
-
-Innitialize repo
-  git init
-
-Move the file to staging area
-  for a single file use= git add <filename.extension>
-  for multiple file use= git add .
+In git.txt file into the repo I have added all the commands which are demonstrated during the class and will be updated time to time.
