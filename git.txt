@@ -1,35 +1,78 @@
-Log Commands
-1)	Commit list in details= git log
-2)	Commit list in one line= git log --oneline
-3)	List of all the authors within the project= git shortlog -s -n
-4)	Commits list by author= git log --author <Author Name>
-    OR – git log --author=<2/3 starting letters>
-5)	Logs of specific file= git log --author <Author Name> <filename>
-6)	Logs for a specific file= git log -p <fileName>
-7)	git log --all --decorate --oneline --graph
-8)	git log --graph --oneline
-9)	Details of a single log= git show <comitid> --stat
-10)	View last 3 logs= git log -3
-11)	git log --stat --oneline
-12) git log --since="2013-11-12" --until="2013-11-12"
+Installing Git
+ sudo apt-get update
+ sudo apt-get install Git
+
+Verifying the installation
+ git --version
+
+Configuring the username and email ID
+ git config --global user.name "Username"
+ git config --global user.email "Email"
+
+Innitialize repo
+ git init
+
+Move the file from untracked/unstaged to staged area
+ single file= git add <file name>
+ multiple files=  git add .
+
+Commit 
+ New file= git commit -m "message"
+ modified file= git commit -am "message"
+
+Connect Local repo with Remote repo
+ git remote add origin <repo url>
+
+Verify GitHub
+ git remote -v
+
+Log commands
+ Commit list in details= git log
+ Commit list in one line= git log --oneline
+ List of all the authors within the project= git shortlog -s -n
+ Commits list by author= git log --author <Author Name>
+ OR = git log --author=<2/3 starting letters>
+ Logs of specific file= git log --author <Author Name> <filename>
+ Logs for a specific file= git log -p <fileName>
+ Decorated view of log= git log --all --decorate --oneline --graph
+ OR= git log --graph --oneline
+ Log view of specific commit= git show <comitid> --stat
+ View last few commits= git log -<no of commits you want to view>
+ View logs between specific dates= git log --after <date> --before <date>
+ Detailed view of logs in one line= git log --stat --oneline
 
 Renameing a file from git
-   1) git mv <old name> <new name>
+ git mv <old name> <new name>
 
 View the list of configuration
-1)	git config --global --list
+ git config --global --list
 
 Alias:
-1)	git config --global alias.br branch
-2)	git config --global alias.ci commit
-3)	git config --global alias.st status
-4)	git config --global --unset "alias.name"
-5)	git config --global --unset-all
+ git config --global alias.br branch
+ git config --global alias.ci commit
+ git config --global alias.st status
+ git config --global --unset "alias.name"
+ git config --global --unset-all
 
-Applicable only to modified file:
-git commit -am "message"
 
 Diff commands:
-1) git diff <old commit> <new commit>
-2) Modified VS Commited = git diff <filename>
-3) Staged VS Commited = git diff --staged <Filename>
+ Difference between two commits= git diff <old commit> <new commit>
+ Modified VS Commited = git diff <filename>
+ Staged VS Commited = git diff --staged <Filename>
+
+Pushing Changes to remote Repo
+ 1st time push= git push -u origin <remote branch>
+ multiple times push= git push
+
+Cloning a repo
+ Complete repo= git clone <URL of the repo>
+ Only a branch from the repo= git clone -b <Branch name><Repository URL>
+
+View List of Files
+ List all files – git ls-files
+ List stagged files – git ls-files --stage
+ List of file in a directory – git ls-files --directory <dir name>
+
+Configure git ignore to your system
+ git config --global core.excludesFile <PATH TO .GITGNORE FILE>
+
