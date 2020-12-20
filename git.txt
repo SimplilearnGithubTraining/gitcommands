@@ -103,3 +103,16 @@ Tag Command
  Get the list of tags with their messages= git tag -n
  Delete a tag= git tag -d <tagname>
  Pushing tags to remote repo= git push --tags
+
+Stashing Commands
+ To stash all the files – git stash
+ To show the list of files stashed – git stash list
+ To show the latest stash or files stashed at 0th position – git stash show
+ To show the stashed records at position 1 – git stash show {1} or use git stash show <stash@{0}>.
+ To stash with a message – Git stash save “message”
+ To get the files back to work – Git stash pop
+ To get back the stashed files at position 1 – Git stash pop {1}
+ This will remove the files from the position 1 and it will also delete the change completely and u cannot undo this – Git stash drop {1} / {stash-id}
+ Remove all the stashed files in one go – Git stash clear
+ Stash Show more details= git stash show -p
+ Stashing a single file= git stash -- <filename>
