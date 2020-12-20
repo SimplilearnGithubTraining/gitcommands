@@ -92,3 +92,13 @@ Reset Command
  Move the file to Staging area= git reset --soft <commit-id> 
  Move the file to unstaged area= git reset --mixed <commit-id> 
  Move the files out of records or reverts the file to the stage of previous commited stage git reset --hard <commit-id>
+
+Amend Command
+ git commit --amend -m “message”
+
+Tag Command
+ Annotated tag= git tag -a <tagname> <commit-id> -m "Message here"
+ Lightweight tag= git tag <tag name>
+ Get the list of tags= git tag --list
+ Get the list of tags with their messages= git tag -n
+ Delete a tag= git tag -d <tagname>
