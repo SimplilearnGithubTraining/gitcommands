@@ -116,3 +116,12 @@ Stashing Commands
  Remove all the stashed files in one go – Git stash clear
  Stash Show more details= git stash show -p
  Stashing a single file= git stash -- <filename>
+
+Git Branching
+1)	I want to see the branches available in this repository then: Git branch
+2)	I want to see all the branches including local and remote branches: Git branch -a
+3)	I want to see all the branches and their last/latest commits along with their message: Git branch -v
+4)	Delete a branch: Git branch <branchname> -d 
+5)	Rename a branch: Git branch -m  <oldName> <newName>
+6)	If you are on the branch you want to rename: git branch -m new-name
+
