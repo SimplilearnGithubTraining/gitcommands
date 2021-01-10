@@ -125,3 +125,8 @@ Git Branching
 5)	Rename a branch: Git branch -m  <oldName> <newName>
 6)	If you are on the branch you want to rename: git branch -m new-name
 
+
+Change the default branch
+ git push --set-upstream origin <branchname>
+ 
+
