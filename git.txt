@@ -59,6 +59,7 @@ Diff commands:
  Difference between two commits= git diff <old commit> <new commit>
  Modified VS Commited = git diff <filename>
  Staged VS Commited = git diff --staged <Filename>
+ Staged VS Specific Commit = git diff <commit ID>
 
 Pushing Changes to remote Repo
  1st time push= git push -u origin <remote branch>
