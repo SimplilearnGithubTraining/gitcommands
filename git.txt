@@ -99,11 +99,11 @@ Amend Command
 
 Tag Command
  Annotated tag= git tag -a <tagname> <commit-id> -m "Message here"
- Lightweight tag= git tag <tag name>
+ Lightweight tag= git tag <tag name> <commit-id>
  Get the list of tags= git tag --list
  Get the list of tags with their messages= git tag -n
  Delete a tag= git tag -d <tagname>
- View a specific tag= git show <tagname>
+ View a specific tag= git show <tagname> 
  Pushing tags to remote repo= git push --tags
  Delete tag from remote= git push --delete origin <tagname>
 
