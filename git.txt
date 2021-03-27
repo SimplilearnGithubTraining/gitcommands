@@ -54,7 +54,6 @@ Alias:
  git config --global --unset "alias.name"
  git config --global --unset-all
 
-
 Diff commands:
  Difference between two commits= git diff <old commit> <new commit>
  Modified VS Commited = git diff <filename>
@@ -77,6 +76,13 @@ View List of Files
 
 Configure git ignore to your system
  git config --global core.excludesFile <PATH TO .GITGNORE FILE>
+
+Checkout Commands:
+ To switch to a branch = git checkout <branchname>
+ To switch to a remote branch = git checkout <remotebranch>
+ To switch to a commit git checkout commitid
+ To switch to a tag git checkout tagname
+
 
 Clean Command
  To view the implication of the clean command - Git clean –dry-run
