@@ -101,6 +101,10 @@ Reset Command
  Move the file to unstaged area= git reset --mixed <commit-id> 
  Move the files out of records or reverts the file to the stage of previous commited stage git reset --hard <commit-id>
 
+Revert Command
+ git revert <commitID>
+ Note:- when you want to revert from 5th commit to 3rd commit then pass the commit id of 4th Commit to revert to the 3rd commit stage.
+
 Amend Command
  git commit --amend -m “message”
 
