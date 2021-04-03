@@ -138,6 +138,7 @@ Git Branching
 4)	Delete a branch: Git branch <branchname> -d 
 5)	Rename a branch: Git branch -m  <oldName> <newName>
 6)	If you are on the branch you want to rename: git branch -m new-name
+7) to check the parent of a branch = git log -g <branch name>
 
 
 Change the default branch
