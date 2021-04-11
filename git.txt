@@ -29,7 +29,7 @@ Verify GitHub
 Log commands
  Commit list in details= git log
  Commit list in one line= git log --oneline
- List of all the authors within the project= git shortlog -s -n
+ List of all the authors within the project (s=summary and n = numbered) = git shortlog -s -n
  Commits list by author= git log --author <Author Name>
  OR = git log --author=<2/3 starting letters>
  Logs of specific file= git log --author <Author Name> <filename>
