@@ -59,7 +59,7 @@ Diff commands:
  Modified VS Commited = git diff <filename>
  Staged VS Commited = git diff --staged <Filename>
  Staged VS Specific Commit = git diff <commit ID>
- Remote VS Local = git diff origin/master master
+ Remote VS Local = git diff origin/master
 
 Pushing Changes to remote Repo
  1st time push= git push -u origin <remote branch>
