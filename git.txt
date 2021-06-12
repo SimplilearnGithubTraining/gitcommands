@@ -139,6 +139,7 @@ Git Branching
 5)	Rename a branch: Git branch -m  <oldName> <newName>
 6)	If you are on the branch you want to rename: git branch -m new-name
 7) to check the parent of a branch = git log -g <branch name>
+8) To view only the remote branch list: git branch -r
 
 
 Change the default branch
