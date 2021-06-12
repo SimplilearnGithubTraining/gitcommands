@@ -6,6 +6,7 @@ Verifying the installation
  git --version
 
 Configuring the username and email ID
+ git config --global --list
  git config --global user.name "Username"
  git config --global user.email "Email"
 
