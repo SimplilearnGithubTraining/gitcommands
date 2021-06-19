@@ -42,6 +42,7 @@ Log commands
  View logs between specific dates= git log --after <date> --before <date>
  Detailed view of logs in one line= git log --stat --oneline
  To read the total count of commits in the repo: git log --oneline | wc -l
+ To view the backend log with even the hidden steps we can use: git reflog
 
 Renameing a file from git
  git mv <old name> <new name>
