@@ -88,7 +88,7 @@ Checkout Commands:
 
 
 Clean Command
- To view the implication of the clean command - Git clean –dry-run
+ To view the implication of the clean command - Git clean -–dry-run
  To force delete the file from the repo - Git clean -f
  To delete dir - Git clean -f -d
  To delete all the files and dir - Git clean -f -d
