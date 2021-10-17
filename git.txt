@@ -21,11 +21,10 @@ Commit
  New file= git commit -m "message"
  modified file= git commit -am "message"
 
-Connect Local repo with Remote repo
- git remote add origin <repo url>
-
-Verify GitHub
- git remote -v
+Remote Repo
+Connect Local repo with Remote repo: git remote add origin <repo url>
+Verify remote connections: git remote -v
+Remove remote repo: git remote remove <name of the remote repo>
 
 Log commands
  Commit list in details= git log
