@@ -144,8 +144,11 @@ Git Branching
 8) To view only the remote branch list: git branch -r
 9) To create a branch and move inside the newly created branch in one go: git checkout -b <branch name>
 
+Git Merging
+1) git merge
+
+git rebase
+1) git rebase
 
 Change the default branch
- git push --set-upstream origin <branchname>
- 
-
+git push --set-upstream origin <branchname>
