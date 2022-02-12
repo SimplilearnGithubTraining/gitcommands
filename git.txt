@@ -10,6 +10,9 @@ Configuring the username and email ID
  git config --global user.name "Username"
  git config --global user.email "Email"
 
+Change the defaultbranch name of the Main from Master use:
+ git config --global init.defaultBranch main
+
 Innitialize repo
  git init
 
